@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Lezione HTML</title>
+    <title>Compito Form</title>
 	<style>
 		label {
 			display: block
@@ -14,6 +14,39 @@
 </head>
 
 <body>
+	<main>
+		<section>
+			<form>
+				<label for="email">e-Mail</label>
+				<input type="email" name="email" required>
+				<label for="password">Password</label>
+				<input type="password" name="password" required>
+				<label for="nome">Nome</label>
+				<input type="text" name="nome" required>
+				<label for="cognome">Cognome</label>
+				<input type="text" name="cognome" required>
+				<label for="indirizzo">Indirizzo</label>
+				<input type="text" name="indirizzo" required>
+				<label for="cell">Cellulare</label>
+				<input type="text" name="cell" required>
+				<label for="piano">Scegli il piano</label>
+				<select name="piano" required>
+					<option>
+						Free Plan
+					</option>
+					<optgroup>
+						<option value="paid-plan">Standard 5€</option>
+						<option value="paid-plan">Plus 10€</option>
+						<option value="paid-plan">Premium 15€</option>
+					</optgroup>
+				</select>
+				<label for="pro-plan">Vuoi ottenere i vantaggi del ProPlan?</label>
+				<input type="checkbox" name="pro-plan">
+
+
+			</form>
+		</section>
+	</main>
 
 </body>
 
